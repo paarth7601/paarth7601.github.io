@@ -1,1 +1,92 @@
-<h1>Hello, GitHub Pages!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paarth Sachan - Professional Experience</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    .section {
+      margin-bottom: 40px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .job-title {
+      font-weight: bold;
+    }
+    .date {
+      color: #888;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Paarth Sachan</h1>
+
+  <div class="section">
+    <h2>Work Experience</h2>
+    <p class="job-title">Research Associate <span class="date">(February 2025 - Current)</span></p>
+    <ul>
+      <li>Worked on making battery digital twins more adaptable to novel conditions not seen during data collection.</li>
+      <li>Our model could predict the temperature with an error below the sensor error of 1K.</li>
+      <li>Our model could predict voltage with 87.13% of predictions with MAPE less than 1% and 99.68% with MAPE less than 5%.</li>
+      <li>Our model required a median of 1 and an average of 1.7 model updates to keep voltage MAPE below 1% along with temperature error < 1K.</li>
+    </ul>
+
+    <p class="job-title">Project Assistant <span class="date">(September 2024 - December 2024)</span></p>
+    <ul>
+      <li>Worked on making battery swapping fast, low-cost, and trustworthy by improving capacity prediction accuracy.</li>
+      <li>Fast Capacity prediction algorithm gives <0.5% MAPE using only 2 seconds of electro-thermal data.</li>
+      <li>Used a lightweight gradient boosting ML algorithm for real-world feasibility.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Internships</h2>
+    <p class="job-title">Data Science Intern - Decimal Point Analytics</p>
+    <ul>
+      <li>Worked on accident detection using CCTV video footage with both supervised and unsupervised approaches.</li>
+      <li>Implemented models using TensorFlow and used MLflow for metric logging. Training was done in Docker.</li>
+      <li>Achieved 85% test accuracy using Autoencoders and optical flow; predicted accident timing within 2 seconds for 90% of test cases.</li>
+      <li>Used mixed precision and gradient accumulation for memory optimization.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Publications & Patents</h2>
+    <p class="job-title">Incorporating Uncertainty and Reliability for Battery Temperature Prediction Using Machine Learning Methods</p>
+    <p class="date">IEEE Journal of Emerging and Selected Topics in Industrial Electronics – October 2023</p>
+    <ul>
+      <li>Developed an uncertainty-aware model using conformal prediction for lithium-ion battery temperature prediction.</li>
+      <li>79% of actual measurements fell within predicted bounds; the rest were within 0.4% of those bounds.</li>
+      <li>Improved prediction accuracy by over 70% versus traditional point prediction methods.</li>
+    </ul>
+
+    <p class="job-title">An Adaptive Battery Charging Optimization System</p>
+    <p class="date">Patent Filed – December 2024</p>
+    <ul>
+      <li>Developed a Battery Digital Twin with 0.93% MAPE (thermal) and 2.41% MAPE (electrical) accuracy under unseen conditions.</li>
+      <li>Designed an optimization algorithm using SOC, SOH, temperature, and charging time to meet user-defined goals.</li>
+      <li>Enabled real-time charging optimization with minimal computation overhead.</li>
+    </ul>
+  </div>
+
+</body>
+</html>
